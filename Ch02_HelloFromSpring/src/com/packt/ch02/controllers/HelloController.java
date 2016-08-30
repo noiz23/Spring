@@ -17,7 +17,7 @@ public class HelloController {
 		mv.setViewName("index");
 		String message="Hello "+name +" From Spring";
 		mv.addObject("message",message);
-		System.out.println("In the method controller  ["+name+"]");
+		System.out.println("....... In the method controller  ["+name+"]");
 		return mv;
 	}
 
